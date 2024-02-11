@@ -1,0 +1,157 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "i18n": {
+      "name": "i18n",
+      "command": "yarn i18n"
+    },
+    "i18n:sort": {
+      "name": "i18n:sort",
+      "command": "yarn i18n:sort"
+    },
+    "i18n:lint": {
+      "name": "i18n:lint",
+      "command": "yarn i18n:lint"
+    },
+    "i18n:diff": {
+      "name": "i18n:diff",
+      "command": "yarn i18n:diff"
+    },
+    "clean": {
+      "name": "clean",
+      "command": "yarn clean"
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build"
+    },
+    "build-stats": {
+      "name": "build-stats",
+      "command": "yarn build-stats"
+    },
+    "build:res": {
+      "name": "build:res",
+      "command": "yarn build:res"
+    },
+    "build:genfiles": {
+      "name": "build:genfiles",
+      "command": "yarn build:genfiles"
+    },
+    "build:modernizr": {
+      "name": "build:modernizr",
+      "command": "yarn build:modernizr"
+    },
+    "build:bundle": {
+      "name": "build:bundle",
+      "command": "yarn build:bundle"
+    },
+    "build:bundle-stats": {
+      "name": "build:bundle-stats",
+      "command": "yarn build:bundle-stats"
+    },
+    "build:module_system": {
+      "name": "build:module_system",
+      "command": "yarn build:module_system"
+    },
+    "dist": {
+      "name": "dist",
+      "command": "yarn dist"
+    },
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": true,
+      "preview": {
+        "port": 8080
+      }
+    },
+    "start:https": {
+      "name": "start:https",
+      "command": "yarn start:https"
+    },
+    "start:res": {
+      "name": "start:res",
+      "command": "yarn start:res"
+    },
+    "start:js": {
+      "name": "start:js",
+      "command": "yarn start:js"
+    },
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint"
+    },
+    "lint:js": {
+      "name": "lint:js",
+      "command": "yarn lint:js"
+    },
+    "lint:js:src": {
+      "name": "lint:js:src",
+      "command": "yarn lint:js:src"
+    },
+    "lint:js:module_system": {
+      "name": "lint:js:module_system",
+      "command": "yarn lint:js:module_system"
+    },
+    "lint:js-fix": {
+      "name": "lint:js-fix",
+      "command": "yarn lint:js-fix"
+    },
+    "lint:js-fix:src": {
+      "name": "lint:js-fix:src",
+      "command": "yarn lint:js-fix:src"
+    },
+    "lint:js-fix:module_system": {
+      "name": "lint:js-fix:module_system",
+      "command": "yarn lint:js-fix:module_system"
+    },
+    "lint:types": {
+      "name": "lint:types",
+      "command": "yarn lint:types"
+    },
+    "lint:types:src": {
+      "name": "lint:types:src",
+      "command": "yarn lint:types:src"
+    },
+    "lint:types:module_system": {
+      "name": "lint:types:module_system",
+      "command": "yarn lint:types:module_system"
+    },
+    "lint:style": {
+      "name": "lint:style",
+      "command": "yarn lint:style"
+    },
+    "lint:workflows": {
+      "name": "lint:workflows",
+      "command": "yarn lint:workflows"
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test"
+    },
+    "coverage": {
+      "name": "coverage",
+      "command": "yarn coverage"
+    },
+    "analyse:unused-exports": {
+      "name": "analyse:unused-exports",
+      "command": "yarn analyse:unused-exports"
+    },
+    "analyse:webpack-bundles": {
+      "name": "analyse:webpack-bundles",
+      "command": "yarn analyse:webpack-bundles"
+    },
+    "update:jitsi": {
+      "name": "update:jitsi",
+      "command": "yarn update:jitsi"
+    }
+  }
+}
